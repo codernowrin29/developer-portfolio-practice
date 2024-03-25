@@ -1,0 +1,379 @@
+/* body styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+}
+
+/* header styles */
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.nav-text {
+    color: rgb(253, 110, 10);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 51px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    border: 0;
+    padding: 18px 35px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.div-container {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    justify-content: space-between;
+    gap: 350px;
+    padding-top: 40px;
+
+}
+
+.div-column {
+    margin-top: 30px;
+}
+
+.div-title {
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.div-sub-title {
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.discription {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+    height: 60px;
+}
+
+.btn-secondary {
+    color: rgb(253, 110, 10);
+    box-sizing: border-box;
+    border: 1px solid rgb(253, 110, 10);
+    border-radius: 5px;
+    color: rgb(253, 110, 10);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    width: 160px;
+    height: 64px;
+    background-color: white;
+}
+
+.div-container .profile-pic {
+    width: 590px;
+}
+
+.header-main {
+    background: rgb(250, 232, 219);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+    padding-top: 40px;
+    padding: 0px 200px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+/* about section added */
+.about-div-column {
+    border-radius: 10px;
+    background: rgb(252, 227, 209);
+    padding: 130px 155px;
+}
+
+.about-title,
+.what-i-do-title,
+.resume-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.about-discirption {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.about-sub-title {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+
+.about-sub-discription {
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+section>div>ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 3px;
+}
+
+/* skills added */
+.skills-discription {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    /* width: 909px; */
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 0 150px;
+}
+
+.sikills-container {
+    display: flex;
+    gap: 27px;
+}
+
+.skills-class {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+
+
+.siklls-section {
+    margin-top: 130px;
+}
+
+.skills-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 30px;
+
+}
+
+.siklls-sub-discription {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.image-margin {
+    margin-bottom: 0;
+}
+
+/* resume added */
+.resume-container {
+    display: flex;
+    gap: 71px;
+}
+
+.resumn-items {
+    width: 511px;
+}
+
+hr {
+    width: 500px;
+}
+
+.resume-title {
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+
+.resule-item-title {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 130px;
+}
+
+.resume-column {
+    margin-top: 2px;
+}
+
+.resume-column-title {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.resume-item-inistitut {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.resume-discription {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.download-cv {
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+/* footer styles added */
+footer {
+    background: rgb(247, 228, 214);
+    padding: 130px 230px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 250px;
+}
+
+.footer-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer-discription {
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    width: 562px;
+    height: 56px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.footer-link-picture {
+    margin-top: 30px;
+}
+
+.margin {
+    margin-right: 10px;
+}
+
+input {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    border: 0;
+}
+
+textarea {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 18px 130px 3px 30px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    border: 0;
+}
+
+#btn {
+    margin-top: 15px;
+}
